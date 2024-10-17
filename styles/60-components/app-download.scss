@@ -1,3 +1,32 @@
 /* ----------------------------------------*\
   App Download
 \*---------------------------------------- */
+
+.app-download {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding-block: var(--space-3);
+
+  color: var(--color-white);
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.app-download__layout {
+  display: grid;
+  grid-template-columns: var(--layout-offset) 1fr;
+  align-items: center;
+}
+
+.app-download__actions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.app-download__button-close {
+  @extend %button-reset;
+  font-size: var(--text-3xl);
+}
