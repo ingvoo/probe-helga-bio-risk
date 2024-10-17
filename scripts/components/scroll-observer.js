@@ -1,9 +1,6 @@
 /*----------------------------------------*\
-  Section Visualiser
+  Scroll Observer
 \*----------------------------------------*/
-
-// TODO: [CSS] Snap sections
-// TODO: Change image on scroll
 
 const sections = Array.from(document.querySelectorAll(".section"));
 
@@ -12,12 +9,19 @@ const observerOptions = {
   threshold: 0.8,
 };
 
+const imagePath = "../../assets/images/";
+
 function callback(entries, observer) {
   entries.forEach((entry) => {
     const colorProperty = entry.target.getAttribute("data-color");
+    const imageSource = entry.target.getAttribute("data-image");
     document.documentElement.style.setProperty(
       "--color-background",
       `var(${colorProperty})`,
+    );
+    document.documentElement.style.setProperty(
+      "--section-image",
+      `url('${imagePath}${imageSource}')`,
     );
   });
 }

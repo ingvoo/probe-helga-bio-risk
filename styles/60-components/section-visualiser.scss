@@ -1,0 +1,36 @@
+/* ----------------------------------------*\
+  Section Visualiser
+\*---------------------------------------- */
+
+:root {
+  --section-image: url('../../assets/images/app.png');
+}
+
+.section-visualiser {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  width: 280px;
+  height: 520px;
+  transform: translate(-200%, -50%);
+  background-image: url('../../assets/images/smartphone.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-image: var(--section-image);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background-image 200ms;
+    transform: 
+      skew(-1deg, -1deg) scaleX(0.75) scaleY(0.88) perspective(1000px)
+      rotateX(-1deg) rotateY(10deg) rotateZ(-5deg) translate(25px, -13px)
+      scale(.9);
+  }
+}

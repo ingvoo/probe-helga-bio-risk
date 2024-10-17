@@ -6,4 +6,4 @@
 import "../styles/main.scss";
 
 // Components
-import "./components/section-visualiser";
+import "./components/scroll-observer";
