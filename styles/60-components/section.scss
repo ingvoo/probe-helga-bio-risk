@@ -8,11 +8,12 @@
   justify-content: center;
   height: 100lvh;
   scroll-snap-align: start;
-  outline: 5px dotted rgba(0,0,0, 0.2);
 }
 
-.section__body {
-  padding-left: var(--layout-offset);
+@include screen(md) {
+  .section__body {
+    padding-left: var(--layout-offset);
+  }
 }
 
 .section__footer {

@@ -2,10 +2,6 @@
   Settings
 \*---------------------------------------- */
 
-$breakpoint-sm: 640px;
-$breakpoint-md: 960px;
-
 $breakpoints: (
-  "sm": $breakpoint-sm,
-  "md": $breakpoint-md
+  "md": 960px
 );

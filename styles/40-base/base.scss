@@ -65,3 +65,18 @@ ul,
 ol {
   list-style-position: inside;
 }
+
+dl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+dd {
+  width: fit-content;
+}
+
+dt,
+dd {
+  flex-basis: 40%;
+}

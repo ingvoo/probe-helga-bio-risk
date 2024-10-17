@@ -3,21 +3,13 @@
 \*---------------------------------------- */
 
 :root {
-  --layout-offset: 500px;
+  --layout-offset: 35vw;
 
   // Colors
   --color-green-500: #7dd6c2;
   --color-violet-500: #bdb4ed;
   --color-green-400: #b3ebd5;
-
   --color-black: #1f1f1f;
-  --color-grey-800: #373734;
-  --color-grey-700: #96968f;
-  --color-grey-600: #b1b2a9;
-  --color-grey-500: #d6d7cc;
-  --color-grey-300: #e2e3db;
-  --color-grey-200: #efefeb;
-  --color-grey-100: #f7f7f5;
   --color-white: #fff;
 
   // Color mapping
@@ -25,7 +17,6 @@
   --color-background: var(--color-green-500);
 
   // Text sizes
-  --text-xs: 0.75rem; /* 12px */
   --text-sm: 0.875rem; /* 14px */
   --text-base: 1rem; /* 16px */
   --text-lg: 1.125rem; /* 18px */
@@ -33,10 +24,7 @@
   --text-2xl: 1.5rem; /* 24px */
   --text-3xl: 1.75rem; /* 28px */
   --text-4xl: 2rem; /* 32px */
-  --text-5xl: 2.5rem; /* 40px */
-  --text-6xl: 3rem; /* 48x */
-  --text-7xl: 3.75rem; /* 60px */
-  --text-8xl: 5rem; /* 80px */
+
 
 // Font family
   --font-family: arial;
