@@ -12,7 +12,12 @@
 
 @include screen(md) {
   .section__body {
-    padding-left: var(--layout-offset);
+    position: absolute;
+    left: 50%;
+    max-width: calc(50% - var(--space-8));
+
+    // alternative
+    // padding-left: var(--layout-offset);
   }
 }
 
