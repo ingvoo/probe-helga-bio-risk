@@ -1,0 +1,14 @@
+/* ----------------------------------------*\
+  Section
+\*---------------------------------------- */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100lvh;
+}
+
+.section__body {
+  padding-left: 50%;
+}

@@ -2,4 +2,8 @@
   main.js
 \*----------------------------------------*/
 
-import '../styles/main.scss'
+// Styles
+import "../styles/main.scss";
+
+// Components
+import "./components/section-visualiser";

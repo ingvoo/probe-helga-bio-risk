@@ -4,9 +4,9 @@
 
 :root {
   // Colors
-  --green-500: #7dd6c2;
-  --violet-500: #bdb4ed;
-  --green-400: #b3ebd5;
+  --color-green-500: #7dd6c2;
+  --color-violet-500: #bdb4ed;
+  --color-green-400: #b3ebd5;
 
   --color-black: #1f1f1f;
   --color-grey-800: #373734;
@@ -17,6 +17,10 @@
   --color-grey-200: #efefeb;
   --color-grey-100: #f7f7f5;
   --color-white: #fff;
+
+  // Color mapping
+  --color-text: var(--color-black);
+  --color-background: var(--color-green-500);
 
   // Text sizes
   --text-xs: 0.75rem; /* 12px */

@@ -9,8 +9,9 @@ html {
   font-weight: var(--font-light);
   line-height: var(--leading-normal);
   color: var(--color-text);
-  background-color: var(--color-grey-20);
+  background-color: var(--color-background);
   scroll-behavior: smooth;
+  transition: background-color 600ms ease-in-out;
 }
 
 h1,
