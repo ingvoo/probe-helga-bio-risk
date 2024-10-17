@@ -7,6 +7,8 @@
   flex-direction: column;
   justify-content: center;
   height: 100lvh;
+  scroll-snap-align: start;
+  outline: 5px dotted rgba(0,0,0, 0.2);
 }
 
 .section__body {

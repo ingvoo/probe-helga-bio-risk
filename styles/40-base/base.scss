@@ -12,6 +12,7 @@ html {
   background-color: var(--color-background);
   scroll-behavior: smooth;
   transition: background-color 600ms ease-in-out;
+  scroll-snap-type: y mandatory;
 }
 
 h1,
