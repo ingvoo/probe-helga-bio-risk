@@ -12,5 +12,13 @@
 }
 
 .section__body {
-  padding-left: 50%;
+  padding-left: var(--layout-offset);
+}
+
+.section__footer {
+  margin-top: var(--space-12);
+  
+  @include screen(md) {
+    margin-top: var(--space-24);
+  } 
 }

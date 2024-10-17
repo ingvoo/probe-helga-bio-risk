@@ -22,29 +22,17 @@ h4,
 h5,
 h6 {
   font-family: var(--font-family-heading);
-  margin: 0.5em 0;
+  margin: .75em 0;
   font-weight: var(--font-bold);
   line-height: var(--leading-small);
 }
 
-// h1 {
-//   @include text-h1;
-// }
-
-// h2 {
-//   @include text-h2;
-// }
-
-// h3 {
-//   @include text-h3;
-// }
-
-// h4 {
-//   @include text-h4;
-// }
-
 strong {
   font-weight: var(--font-bold);
+}
+
+p {
+  max-width: 40em;
 }
 
 p + p {
