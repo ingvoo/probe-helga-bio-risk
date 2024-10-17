@@ -1,0 +1,77 @@
+/* ----------------------------------------*\
+  BASE
+\*---------------------------------------- */
+
+html {
+  height: 100%;
+  font-family: var(--font-family);
+  font-size: var(--text-base);
+  font-weight: var(--font-light);
+  line-height: var(--leading-normal);
+  color: var(--color-text);
+  background-color: var(--color-grey-20);
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+  margin: 0.5em 0;
+  font-weight: var(--font-bold);
+  line-height: var(--leading-small);
+}
+
+// h1 {
+//   @include text-h1;
+// }
+
+// h2 {
+//   @include text-h2;
+// }
+
+// h3 {
+//   @include text-h3;
+// }
+
+// h4 {
+//   @include text-h4;
+// }
+
+strong {
+  font-weight: var(--font-bold);
+}
+
+p + p {
+  margin-top: var(--space-4);
+  
+  @include screen(md) {
+    margin-top: var(--space-6);
+  }
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+  transition: color 100ms;
+
+  &:focus {
+    @include focus;
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  user-drag: none;
+  user-select: none;
+  pointer-events: none;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
